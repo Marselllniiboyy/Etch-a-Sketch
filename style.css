@@ -19,17 +19,13 @@ body {
 }
 
 #container {
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 25rem;
     border: 1px solid red;
-    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
 }
 
 .square {
-    width: calc(100% / 16);
-    height: calc(100% / 16);
     border: 1px solid grey;
-    box-sizing: border-box;
 }
